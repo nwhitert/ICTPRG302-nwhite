@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/src/SFML/Main
+# Install script for directory: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/src/SFML/Main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/lib/libsfml-main-d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/lib/libsfml-main-d.a")
 endif()
 

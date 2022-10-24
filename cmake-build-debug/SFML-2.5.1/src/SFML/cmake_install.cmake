@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/src/SFML
+# Install script for directory: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/src/SFML/System/cmake_install.cmake")
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/src/SFML/Main/cmake_install.cmake")
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/src/SFML/Window/cmake_install.cmake")
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/src/SFML/Network/cmake_install.cmake")
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

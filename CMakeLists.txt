@@ -3,11 +3,13 @@ project(RTGame)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(SFML-2.5.1/include)
 add_subdirectory(SFML-2.5.1/)
+add_subdirectory(box2d-2.4.1/)
 
-add_executable(RTGame main.cpp)
+include_directories(SFML-2.5.1/include)
+include_directories(box2d-2.4.1/include)
 
-target_link_libraries(RTGame sfml-graphics sfml-system sfml-window)
+add_executable(RTGame main.cpp Physics.cpp Physics.hpp PhysicsBox.cpp PhysicsBox.hpp PhysicsObject.cpp PhysicsObject.hpp PhysicsSprite.cpp PhysicsSprite.hpp)
 
+target_link_libraries(RTGame box2d sfml-graphics sfml-system sfml-window)
 

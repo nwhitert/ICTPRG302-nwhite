@@ -1,4 +1,4 @@
-C:\Users\nickobelic1999\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/nickobelic1999/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S C:\Users\nickobelic1999\CLionProjects\RTGame -B C:\Users\nickobelic1999\CLionProjects\RTGame\cmake-build-debug
+C:\Users\nickobelic1999\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/nickobelic1999/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S C:\Users\nickobelic1999\CLionProjects\ICTPRG302-nwhite -B C:\Users\nickobelic1999\CLionProjects\ICTPRG302-nwhite\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -22,7 +22,7 @@ C:\Users\nickobelic1999\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\222.4345
 -- Found OpenGL: opengl32   
 -- Looking for dinput.h
 -- Looking for dinput.h - found
--- Found OpenAL: C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/extlibs/libs-mingw/x64/libopenal32.a  
+-- Found OpenAL: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/extlibs/libs-mingw/x64/libopenal32.a  
 CMake Warning (dev) at C:/Users/nickobelic1999/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/bin/cmake/win/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
   The package name passed to `find_package_handle_standard_args` (VORBIS)
   does not match the name of the calling package (Vorbis).  This can lead to
@@ -34,8 +34,13 @@ Call Stack (most recent call first):
   SFML-2.5.1/src/SFML/Audio/CMakeLists.txt:70 (sfml_find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found VORBIS: C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/extlibs/libs-mingw/x64/libogg.a  
--- Found FLAC: C:/Users/nickobelic1999/CLionProjects/RTGame/SFML-2.5.1/extlibs/libs-mingw/x64/libFLAC.a  
+-- Found VORBIS: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisenc.a;C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbisfile.a;C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/extlibs/libs-mingw/x64/libvorbis.a;C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/extlibs/libs-mingw/x64/libogg.a  
+-- Found FLAC: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/SFML-2.5.1/extlibs/libs-mingw/x64/libFLAC.a  
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug
+-- Build files have been written to: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug

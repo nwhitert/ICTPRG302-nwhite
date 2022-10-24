@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nickobelic1999/CLionProjects/RTGame
+# Install script for directory: C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/SFML-2.5.1/cmake_install.cmake")
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/SFML-2.5.1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/box2d-2.4.1/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/nickobelic1999/CLionProjects/RTGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/nickobelic1999/CLionProjects/ICTPRG302-nwhite/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
